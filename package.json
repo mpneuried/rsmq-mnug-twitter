@@ -1,0 +1,34 @@
+{
+  "name": "rsmq-mnug-twitter",
+  "version": "0.0.1",
+  "description": "A simple test app as showcase for rsmq. It listens to twitter hash tags and responds with a chuck norris joke as private message.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpneuried/rsmq-mnug-twitter"
+  },
+  "keywords": [
+    "twitter",
+    "test",
+    "showcase",
+    "rsmq",
+    "mnug",
+    "node",
+    "usergroup",
+    "munich"
+  ],
+  "author": "mpneuried",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpneuried/rsmq-mnug-twitter/issues"
+  },
+  "homepage": "https://github.com/mpneuried/rsmq-mnug-twitter",
+  "dependencies": {
+    "node-twitter": "0.5.x",
+    "request": "2.x",
+    "rsmq-worker": "0.x"
+  }
+}

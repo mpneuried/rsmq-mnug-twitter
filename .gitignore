@@ -1,0 +1,13 @@
+/node_modules
+*.profile
+*.lock
+*.conflict
+*.DS_Store
+*.zip
+*.rdb
+
+.project
+.settings
+.idea
+
+config.json
